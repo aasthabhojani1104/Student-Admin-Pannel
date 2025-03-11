@@ -1,0 +1,355 @@
+﻿@{
+    ViewData["Title"] = "Student";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model StudyTrick.Areas.ADM_Student.Models.ADM_StudentModel
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
+                <ol class="breadcrumb breadcrumb-dark breadcrumb-transparent">
+                    <!-- Breadcrumb remains same as original -->
+                </ol>
+            </nav>
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">@TempData["StudentSaveMSG"] Student</h4>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" asp-area="ADM_Student" asp-controller="ADM_Student" asp-action="Save" enctype="multipart/form-data">
+                                @Html.HiddenFor(x => x.StudentID)
+                                @Html.HiddenFor(x => x.PhotoPath)
+
+                                <div class="row">
+                                    <!-- Personal Details -->
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Visitor Name</label>
+                                            <select class="form-select" asp-for="VisitorID" asp-items="@(new SelectList(ViewBag.VisitorList,"VisitorID","VisitorName"))">
+                                                <option value="">Select Visitor</option>
+                                            </select>
+                                            <span asp-validation-for="VisitorID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Student Name</label>
+                                            <input type="text" class="form-control" asp-for="StudentName" placeholder="Enter full name">
+                                            <span asp-validation-for="StudentName" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Parent Phone</label>
+                                            <input type="text" class="form-control" asp-for="ParentPhone" placeholder="Enter phone number">
+                                            <span asp-validation-for="ParentPhone" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Date of Birth</label>
+                                            <input type="text" class="form-control" id="birthday" asp-for="DateOfBirth" placeholder="DD/MM/YYYY">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Gender</label>
+                                            <div class="d-flex gap-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="Gender" id="male" value="Male" checked>
+                                                    <label class="form-check-label" for="male">Male</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="Gender" id="female" value="Female">
+                                                    <label class="form-check-label" for="female">Female</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">State</label>
+                                            <select class="form-select" asp-for="StateID" asp-items="@(new SelectList(ViewBag.StateList,"StateID","StateName"))" onchange="fnOnStateChange();">
+                                                <option value="">Select State</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">City</label>
+                                            <select class="form-select" asp-for="CityID" asp-items="@(new SelectList(ViewBag.CityList,"CityID","CityName"))">
+                                                <option value="">Select City</option>
+                                            </select>
+                                        </div>
+                                    </div>  
+                                
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Caste Category</label>
+                                            <select class="form-select" asp-for="CasteCategoryID" asp-items="@(new SelectList(ViewBag.CasteCategoryList,"CasteCategoryID","CategoryName"))">
+                                                <option value="">Select Category</option>
+                                            </select>
+                                            <span asp-validation-for="CasteCategoryID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                     <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Student Photo</label>
+                                            <input class="form-control" type="file" asp-for="File">
+                                            <span asp-validation-for="PhotoPath" class="text-danger"></span>
+                                        </div>
+                                    </div> 
+
+                                    <!-- Admission Details -->
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Admission Year</label>
+                                            <select class="form-select" asp-for="AdmissionYearID" asp-items="@(new SelectList(ViewBag.AdmissionYearList,"AdmissionYearID","AdmissionYear"))">
+                                                <option value="">Select Year</option>
+                                            </select>
+                                            <span asp-validation-for="AdmissionYearID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Course</label>
+                                            <select class="form-select" asp-for="CourseID" asp-items="@(new SelectList(ViewBag.CourseList,"CourseID","CourseName"))" onchange="fnOnCourseChange();">
+                                                <option value="">Select Course</option>
+                                            </select>
+                                            <span asp-validation-for="CourseID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Program</label>
+                                            <select class="form-select" asp-for="ProgramID" asp-items="@(new SelectList(ViewBag.ProgramList,"ProgramID","ProgramName"))">
+                                                <option value="">Select Program</option>
+                                            </select>
+                                            <span asp-validation-for="ProgramID" class="text-danger"></span>
+                                        </div>
+                                    </div> 
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Quota</label>
+                                            <select class="form-select" asp-for="QuotaID" asp-items="@(new SelectList(ViewBag.QuotaList,"QuotaID","QuotaName"))">
+                                                <option value="">Select Quota</option>
+                                            </select>
+                                            <span asp-validation-for="QuotaID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Qualification</label>
+                                            <select class="form-select" asp-for="QualificationID" asp-items="@(new SelectList(ViewBag.QualificationList,"QualificationID","QualificationName"))">
+                                                <option value="">Select Qualification</option>
+                                            </select>
+                                            <span asp-validation-for="QualificationID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Academic Details -->
+                                    <div class="col-12 mt-4">
+                                        <h5 class="mb-3">Academic Details</h5>
+                                    </div>
+
+                                    <!-- SSC -->
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">SSC Percentage</label>
+                                            <input type="number" class="form-control" asp-for="SSCPercentage" placeholder="Enter percentage">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">SSC School</label>
+                                            <input type="text" class="form-control" asp-for="SSCSchoolName" placeholder="School name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">SSC Passing Year</label>
+                                            <input type="text" class="form-control" asp-for="SSCPassingYear" placeholder="Year">
+                                        </div>
+                                    </div>
+
+                                    <!-- HSC -->
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">HSC Percentage</label>
+                                            <input type="number" class="form-control" asp-for="HSCPercentage" placeholder="Enter percentage">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">HSC School</label>
+                                            <input type="text" class="form-control" asp-for="HSCSchoolName" placeholder="School name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">HSC Passing Year</label>
+                                            <input type="text" class="form-control" asp-for="HSCPassingYear" placeholder="Year">
+                                        </div>
+                                    </div>
+
+                                    <!-- Diploma -->
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Diploma Percentage</label>
+                                            <input type="number" class="form-control" asp-for="DiplomaPercentage" placeholder="Enter percentage">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Diploma College</label>
+                                            <input type="text" class="form-control" asp-for="DiplomaCollegeName" placeholder="College name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">Diploma Passing Year</label>
+                                            <input type="text" class="form-control" asp-for="DiplomaPassingYear" placeholder="Year">
+                                        </div>
+                                    </div>
+
+                                    <!-- UG -->
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">UG Percentage</label>
+                                            <input type="number" class="form-control" asp-for="UGPercentage" placeholder="Enter percentage">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">UG College</label>
+                                            <input type="text" class="form-control" asp-for="UGCollegeName" placeholder="College name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">UG Passing Year</label>
+                                            <input type="text" class="form-control" asp-for="UGPassingYear" placeholder="Year">
+                                        </div>
+                                    </div>
+
+                                    <!-- PG -->
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">PG Percentage</label>
+                                            <input type="number" class="form-control" asp-for="PGPercentage" placeholder="Enter percentage">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">PG College</label>
+                                            <input type="text" class="form-control" asp-for="PGCollegeName" placeholder="College name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">PG Passing Year</label>
+                                            <input type="text" class="form-control" asp-for="PGPassingYear" placeholder="Year">
+                                        </div>
+                                    </div>
+
+                                    <!-- Description -->
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Description</label>
+                                            <textarea class="form-control" asp-for="Description" rows="3" placeholder="Additional information"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col text-end">
+                                        <a href="/ADM_Student/ADM_Student/Index" class="btn btn-outline-secondary w-md">
+                                            <i class="mdi mdi-close me-1"></i> Cancel
+                                        </a>
+                                        <button type="submit" class="btn btn-primary w-md">
+                                            <i class="mdi mdi-content-save me-1"></i> Save
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</div>
+
+@section Scripts {
+   <script>
+        // Initialize datepicker
+        flatpickr("#birthday", {
+            dateFormat: "d/m/Y",
+            allowInput: true
+        });
+
+        // State-City Dropdown
+        function fnOnStateChange() {
+            const stateId = $("#StateID").val();
+            if (stateId) {
+                $.ajax({
+                    url: '@Url.Action("DropDownByState", "ADM_Student")',
+                    data: { stateID: stateId },
+                    success: function(data) {
+                        $("#CityID").empty().append('<option value="">Select City</option>');
+                        data.forEach(city => {
+                            $("#CityID").append($('<option></option>').val(city.cityID).text(city.cityName));
+                        });
+                    }
+                });
+            }
+        }
+
+        // Course-Program Dropdown
+        function fnOnCourseChange() {
+            const courseId = $("#CourseID").val();
+            if (courseId) {
+                $.ajax({
+                    url: '@Url.Action("DropDownByCourse", "ADM_Student")',
+                    data: { courseID: courseId },
+                    success: function(data) {
+                        $("#ProgramID").empty().append('<option value="">Select Program</option>');
+                        data.forEach(program => {
+                            $("#ProgramID").append($('<option></option>').val(program.programID).text(program.programName));
+                        });
+                    }
+                });
+            }
+        }
+    </script>   
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

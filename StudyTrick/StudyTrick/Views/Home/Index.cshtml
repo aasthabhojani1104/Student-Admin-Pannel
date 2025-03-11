@@ -1,0 +1,537 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="row mb-4">
+                        <div class="col-auto d-flex justify-content-end pe-0 align-items-center">
+                            <i data-eva="paper-plane" class="fill-muted"></i>
+                        </div>
+                        <div class="col-auto">
+                            <h3 class="fw-semibold mb-0">
+                                Good <script>document.write(new Date().getHours() > 12 ? "afternoon" : "morning")</script>, <span class="fw-normal">@HttpContextAccessor.HttpContext.Session.GetString("Name")</span>
+                            </h3>
+                            <p class="fw-medium mb-0">What a beautiful day.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xxl-3 col-lg-6 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 me-3">
+                                            <div class="avatar">
+                                                <div class="avatar-title rounded bg-primary bg-gradient">
+                                                    <i data-eva="people" class="fill-white"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <p class="text-muted mb-1">Admissions</p>
+                                            <h4 class="mb-0">@TempData["TotalAdmissions"]</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end card body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-xxl-3 col-lg-6 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 me-3">
+                                            <div class="avatar">
+                                                <div class="avatar-title rounded bg-primary bg-gradient">
+                                                    <i data-eva="book" class="fill-white"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <p class="text-muted mb-1">Courses</p>
+                                            <h4 class="mb-0">@TempData["TotalCourses"]</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end card body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-xxl-3 col-lg-6 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 me-3">
+                                            <div class="avatar">
+                                                <div class="avatar-title rounded bg-primary bg-gradient">
+                                                    <i data-eva="smiling-face" class="fill-white"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <p class="text-muted mb-1">Visitors</p>
+                                            <h4 class="mb-0">@TempData["TotalVisitors"]</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end card body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <div class="col-xxl-3 col-lg-6 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 me-3">
+                                            <div class="avatar">
+                                                <div class="avatar-title rounded bg-primary bg-gradient">
+                                                    <i data-eva="person-add" class="fill-white"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <p class="text-muted mb-1">Intakes</p>
+                                            <h4 class="mb-0">@TempData["TotalIntakes"]</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xxl-3 col-xl-4 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-grow-1">
+                                            <h5 class="card-title mb-3">Gender Wise Admissions</h5>
+                                        </div>
+                                    </div>
+
+                                    <div id="genderPieChart" data-colors='["#3b76e1", "#f56e6e"]' class="mt-2"></div>
+
+                                    <div class="text-center mt-4 border-top">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="pt-3">
+                                                    <p class="text-muted text-truncate mb-2">Male</p>
+                                                    <h5 class="font-size-16 mb-0">@TempData["TotalMaleAdmission"]</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="pt-3">
+                                                    <p class="text-muted text-truncate mb-2">Female</p>
+                                                    <h5 class="font-size-16 mb-0">@TempData["TotalFemaleAdmission"]</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- end card body -->
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <div class="col-xxl-9 col-xl-8 col-md-6">
+                            <div class="row">
+                                <div class="col-xxl-4 col-xl-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start">
+                                                <div class="flex-grow-1">
+                                                    <h5 class="card-title mb-3">Year Wise Admissions</h5>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2">
+                                                <div class="mb-3">
+                                                    <select class="form-select" id="AdmissionYearID" asp-items="@(new SelectList(ViewBag.AdmissionYearList,"AdmissionYearID","AdmissionYear"))" onchange="fnOnYearChange();">
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center mt-4 border-top">
+                                                <div class="pt-3">
+                                                    <p class="text-muted text-truncate mb-2">Admissions</p>
+                                                    <h5 id="TotalAdmissionByYear" class="font-size-16 mb-0">0</h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- end card body -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <div class="col-xxl-4 col-xl-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start">
+                                                <div class="flex-grow-1">
+                                                    <h5 class="card-title mb-3">Course Wise Admissions</h5>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2">
+                                                <div class="mb-3">
+                                                    <select class="form-select" id="CourseID" asp-items="@(new SelectList(ViewBag.CourseList,"CourseID","CourseName"))" onchange="fnOnCourseChange();">
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center mt-4 border-top">
+                                                <div class="pt-3">
+                                                    <p class="text-muted text-truncate mb-2">Admissions</p>
+                                                    <h5 id="TotalAdmissionByCourse" class="font-size-16 mb-0">0</h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- end card body -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <div class="col-xxl-4 col-xl-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start">
+                                                <div class="flex-grow-1">
+                                                    <h5 class="card-title mb-3">Staff Wise Admissions</h5>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2">
+                                                <div class="mb-3">
+                                                    <select class="form-select" id="StaffID" asp-items="@(new SelectList(ViewBag.StaffList,"StaffID","StaffName"))" onchange="fnOnStaffChange();">
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center mt-4 border-top">
+                                                <div class="pt-3">
+                                                    <p class="text-muted text-truncate mb-2">Admissions</p>
+                                                    <h5 id="TotalAdmissionByStaff" class="font-size-16 mb-0">0</h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- end card body -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <div class="col-xxl-4 col-xl-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start">
+                                                <div class="flex-grow-1">
+                                                    <h5 class="card-title mb-3">State Wise Admissions</h5>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2">
+                                                <div class="mb-3">
+                                                    <select class="form-select" id="StateID" asp-items="@(new SelectList(ViewBag.StateList,"StateID","StateName"))" onchange="fnOnStateChange();">
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center mt-4 border-top">
+                                                <div class="pt-3">
+                                                    <p class="text-muted text-truncate mb-2">Admissions</p>
+                                                    <h5 id="TotalAdmissionByState" class="font-size-16 mb-0">0</h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- end card body -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <div class="col-xxl-4 col-xl-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start">
+                                                <div class="flex-grow-1">
+                                                    <h5 class="card-title mb-3">City Wise Admissions</h5>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-2">
+                                                <div class="mb-3">
+                                                    <select class="form-select" id="CityID" asp-items="@(new SelectList(ViewBag.CityList,"CityID","CityName"))" onchange="fnOnCityChange();">
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center mt-4 border-top">
+                                                <div class="pt-3">
+                                                    <p class="text-muted text-truncate mb-2">Admissions</p>
+                                                    <h5 id="TotalAdmissionByCity" class="font-size-16 mb-0">0</h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- end card body -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <script>document.write(new Date().getFullYear())</script> &copy; Aastha Bhojani.
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            getDataGenderAdmissionChart();
+            fnOnYearChange();
+            fnOnCourseChange();
+            fnOnStaffChange();
+            fnOnStateChange();
+            fnOnCityChange();
+        });
+
+        function fnOnYearChange() {
+            var AdmissionYearID = $("#AdmissionYearID").val();
+            if (AdmissionYearID !== "") {
+                $.ajax(
+                    {
+                        type: "POST",
+                        contentType: "application/json; charset=ytf-8",
+                        url: "@Url.Action("AdmissionByYear", "Home")" + "?&AdmissionYearID=" + AdmissionYearID,
+                        data: {},
+                        dataType: "json",
+                        success: function (Result) {
+                            $("#TotalAdmissionByYear").html(Result.length);
+                        },
+                        error: function (r) {
+                            alert("Error while loading dropdown.")
+                        }
+                    }
+                );
+            }
+        }
+
+        function fnOnCourseChange() {
+            var CourseID = $("#CourseID").val();
+
+            if (CourseID !== "") {
+                $.ajax(
+                    {
+                        type: "POST",
+                        contentType: "application/json; charset=ytf-8",
+                        url: "@Url.Action("AdmissionByCourse", "Home")" + "?&CourseID=" + CourseID,
+                        data: {},
+                        dataType: "json",
+                        success: function (Result) {
+                            $("#TotalAdmissionByCourse").html(Result.length);
+                        },
+                        error: function (r) {
+                            alert("Error while loading dropdown.")
+                        }
+                    }
+                );
+            }
+        }
+
+        function fnOnStaffChange() {
+            var StaffID = $("#StaffID").val();
+
+            if (StaffID !== "") {
+                $.ajax(
+                    {
+                        type: "POST",
+                        contentType: "application/json; charset=ytf-8",
+                        url: "@Url.Action("AdmissionByStaff", "Home")" + "?&StaffID=" + StaffID,
+                        data: {},
+                        dataType: "json",
+                        success: function (Result) {
+                            $("#TotalAdmissionByStaff").html(Result.length);
+                        },
+                        error: function (r) {
+                            alert("Error while loading dropdown.")
+                        }
+                    }
+                );
+            }
+        }
+
+        function fnOnStateChange() {
+            var StateID = $("#StateID").val();
+
+            if (StateID !== "") {
+                $.ajax(
+                    {
+                        type: "POST",
+                        contentType: "application/json; charset=ytf-8",
+                        url: "@Url.Action("AdmissionByStateID", "Home")" + "?&StateID=" + StateID,
+                        data: {},
+                        dataType: "json",
+                        success: function (Result) {
+                            $("#TotalAdmissionByState").html(Result.length);
+                        },
+                        error: function (r) {
+                            alert("Error while loading dropdown.")
+                        }
+                    }
+                );
+            }
+        }
+
+        function fnOnCityChange() {
+            var CityID = $("#CityID").val();
+
+            if (CityID !== "") {
+                $.ajax(
+                    {
+                        type: "POST",
+                        contentType: "application/json; charset=ytf-8",
+                        url: "@Url.Action("AdmissionByCityID", "Home")" + "?&CityID=" + CityID,
+                        data: {},
+                        dataType: "json",
+                        success: function (Result) {
+                            $("#TotalAdmissionByCity").html(Result.length);
+                        },
+                        error: function (r) {
+                            alert("Error while loading dropdown.")
+                        }
+                    }
+                );
+            }
+        }
+
+        function getDataGenderAdmissionChart() {
+            $.ajax(
+                {
+                    type: "POST",
+                    contentType: "application/json; charset=ytf-8",
+                    url: "@Url.Action("AdmissionByGender", "Home")",
+                    data: {},
+                    dataType: "json",
+                    success: function (Result) {
+                        if (Result.series.length > 0) {
+                            genderAdmissionChart(Result.series, Result.labels);
+                        }
+                    },
+                    error: function (r) {
+                        alert("Error while loading pie chart.")
+                    }
+                }
+            );
+        }
+
+        function genderAdmissionChart(series, labels) {
+            options = {
+                series: series,
+                labels: labels,
+                chart: {
+                    height: 300,
+                    type: "donut"
+                },
+                plotOptions: {
+                    pie: {
+                        startAngle: -90,
+                        endAngle: 270
+                    }
+                },
+                dataLabels: {
+                    enabled: !1
+                },
+                fill: {
+                    type: "gradient"
+                },
+                legend: {
+                    position: "bottom"
+                },
+                colors: barchartColors = getChartColorsArray("genderPieChart")
+            };
+
+            (chart = new ApexCharts(document.querySelector("#genderPieChart"), options)).render();
+        }
+
+        function getChartColorsArray(e) {
+            if (null !== document.getElementById(e)) {
+                var t = document.getElementById(e).getAttribute("data-colors");
+                return (t = JSON.parse(t)).map(function (e) {
+                    var t = e.replace(" ", "");
+                    if (-1 == t.indexOf("--"))
+                        return t;
+                    var r = getComputedStyle(document.documentElement).getPropertyValue(t);
+                    return r || void 0
+                })
+            }
+        }
+
+        function yearAdmissionChart() {
+            options = {
+                series: [{
+                    name: "Admissions",
+                    data: [9, 29, 19, 22, 9, 12, 7, 19, 5, 13, 9, 17, 2, 7, 5]
+                }],
+                chart: {
+                    height: 350,
+                    type: "line"
+                },
+                stroke: {
+                    width: 7,
+                    curve: "smooth"
+                },
+                xaxis: {
+                    type: "datetime",
+                    categories: ["4/19/2001", "5/11/2001", "6/11/2001", "7/11/2001", "8/11/2001", "9/11/2001", "10/11/2001", "11/11/2001", "12/11/2001", "1/11/2002", "2/11/2002", "3/11/2002", "4/11/2002", "5/11/2002", "6/1/2003"],
+                },
+                fill: {
+                    type: "gradient",
+                    gradient: {
+                        shade: "dark",
+                        gradientToColors: (barchartColors = getChartColorsArray("line_chart_gradient"))[0],
+                        shadeIntensity: 1,
+                        type: "horizontal",
+                        opacityFrom: 1,
+                        opacityTo: 1,
+                        stops: [0, 100, 100, 100]
+                    }
+                },
+                markers: {
+                    size: 4,
+                    colors: barchartColors[0],
+                    strokeColors: "#fff",
+                    strokeWidth: 2,
+                    hover: {
+                        size: 7
+                    }
+                },
+                yaxis: {
+                    min: 0,
+                    title: {
+                        text: "Admission"
+                    }
+                }
+            };
+            (chart = new ApexCharts(document.querySelector("#line_chart_gradient"), options)).render();
+        }
+    </script>
+}

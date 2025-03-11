@@ -1,0 +1,139 @@
+﻿@{
+    ViewData["Title"] = "Intake";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model StudyTrick.Areas.ADM_Intake.Models.ADM_IntakeModel
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
+                <ol class="breadcrumb breadcrumb-dark breadcrumb-transparent">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            <svg class="icon icon-xxs" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="/ADM_Intake/ADM_Intake/Index">Intake</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Add Intake</li>
+                </ol>
+            </nav>
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">@TempData["IntakeSaveMSG"] Intake</h4>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" asp-area="ADM_Intake" asp-controller="ADM_Intake" asp-action="Save">
+                                @Html.HiddenFor(x=>x.IntakeID)
+                                <div class="row">
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label for="CourseID" class="form-label">Course Name</label>
+                                            <select id="CourseID" class="form-select" asp-for="CourseID" asp-items="@(new SelectList(ViewBag.CourseList,"CourseID","CourseName"))" onchange="fnOnCourseChange();">
+                                                <option value="">Select Course</option>
+                                            </select>
+                                            <span asp-validation-for="CourseID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                     <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label for="ProgramID" class="form-label">Program Name</label>
+                                            <select id="ProgramID" class="form-select" asp-for="ProgramID" asp-items="@(new SelectList(ViewBag.ProgramList,"ProgramID","ProgramName"))">
+                                                <option value="">Select Program</option>
+                                            </select>
+                                            <span asp-validation-for="ProgramID" class="text-danger"></span>
+                                        </div>
+                                    </div> 
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label" for="AdmissionYearID">Admission Year</label>
+                                            <select class="form-select" id="AdmissionYearID" asp-for="AdmissionYearID" asp-items="@(new SelectList(ViewBag.AdmissionYearList,"AdmissionYearID","AdmissionYear"))">
+                                                <option value="">Select Admission Year</option>
+                                            </select>
+                                            <span asp-validation-for="AdmissionYearID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label class="form-label" for="QuotaID">Quota</label>
+                                            <select class="form-select" id="QuotaID" asp-for="QuotaID" asp-items="@(new SelectList(ViewBag.QuotaList,"QuotaID","QuotaName"))">
+                                                <option value="">Select Quota</option>
+                                            </select>
+                                            <span asp-validation-for="QuotaID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xxl-4">
+                                        <div class="mb-3">
+                                            <label for="Intake" class="form-label">Intake</label>
+                                            <input type="number" class="form-control" id="Intake" placeholder="Enter Intake" asp-for="Intake">
+                                            <span asp-validation-for="Intake" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="mb-3">
+                                            <label for="desc">Description</label>
+                                            <textarea class="form-control" id="desc" placeholder="Enter Description" type="text" asp-for="Description"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-end">
+                                        <a href="/ADM_Intake/ADM_Intake/Index" class="btn btn-outline-secondary w-md"> <i class="mdi mdi-close me-1"></i> Cancel </a>
+                                        <button type="submit" class="btn btn-primary w-md"> <i class="mdi mdi-file-document-outline me-1"></i> Save </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</div>
+
+@section Scripts{
+     <script>
+        function fnOnCourseChange() {
+            var CourseID = $("#CourseID").val();
+            if (CourseID !== "") {
+                $("#ProgramID").empty();
+                $("#ProgramID").append($("<option></option>").val("").html("Select Program"));
+                $.ajax(
+                    {
+                        type: "POST",
+                        contentType: "application/json; charset=ytf-8",
+                        url: "@Url.Action("DropDownByCourse", "ADM_Intake")" + "?&CourseID=" + CourseID,
+                        data: {},
+                        dataType: "json",
+                        success: function (Result) {
+                            $.each(Result,
+                                function (key, value) {
+                                    $("#ProgramID").append($("<option></option>").val(value.programID).html(value.programName));
+                                }
+                            );
+                        },
+                        error: function (r) {
+                            alert("Error while loading dropdown.")
+                        }
+                    }
+                );
+            } else {
+                $("#ProgramID").empty();
+                $("#ProgramID").append($("<option></option>").val("").html("Select Program"));
+            }
+        }
+    </script> 
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

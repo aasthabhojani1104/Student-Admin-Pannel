@@ -1,0 +1,1145 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\StudyTrick.bundle.scp.css",
+      "PackagePath": "staticwebassets\\StudyTrick.khafndpidv.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\106.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\106.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\IMG_20230116_161536_017.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\IMG_20230116_161536_017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\bg.png",
+      "PackagePath": "staticwebassets\\Uploads\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\coming-soon.png",
+      "PackagePath": "staticwebassets\\Uploads\\coming-soon.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\cost.png",
+      "PackagePath": "staticwebassets\\Uploads\\cost.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\done.png",
+      "PackagePath": "staticwebassets\\Uploads\\done.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\grinning-face-with-big-eyes_1f603.png",
+      "PackagePath": "staticwebassets\\Uploads\\grinning-face-with-big-eyes_1f603.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\grinning-face_1f600.gif",
+      "PackagePath": "staticwebassets\\Uploads\\grinning-face_1f600.gif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\logo-dark-sm.png",
+      "PackagePath": "staticwebassets\\Uploads\\logo-dark-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\logo.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\neutral.png",
+      "PackagePath": "staticwebassets\\Uploads\\neutral.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\profile-img.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\profile-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\smile.png",
+      "PackagePath": "staticwebassets\\Uploads\\smile.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\smiling-face-with-smiling-eyes_1f60a.png",
+      "PackagePath": "staticwebassets\\Uploads\\smiling-face-with-smiling-eyes_1f60a.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\Uploads\\verified.png",
+      "PackagePath": "staticwebassets\\Uploads\\verified.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\css\\app.min.css",
+      "PackagePath": "staticwebassets\\css\\app.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\css\\icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\boxicons.svg@",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.svg@"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-brands-400.eot@",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot@"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-regular-400.eot@",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot@"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-solid-900.eot@",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot@"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\materialdesignicons-webfont.eot@",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.eot@"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\materialdesignicons-webfont.eot@v=5.5.55",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.eot@v=5.5.55"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\materialdesignicons-webfont.ttf@v=5.5.55",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.ttf@v=5.5.55"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\Final-Logo.png",
+      "PackagePath": "staticwebassets\\images\\Final-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\auth-bg-1.jpg",
+      "PackagePath": "staticwebassets\\images\\auth-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\auth-bg-2.jpg",
+      "PackagePath": "staticwebassets\\images\\auth-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\auth-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\auth-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\bg-auth.png",
+      "PackagePath": "staticwebassets\\images\\bg-auth.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\brands\\bitbucket.png",
+      "PackagePath": "staticwebassets\\images\\brands\\bitbucket.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\images\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\brands\\dropbox.png",
+      "PackagePath": "staticwebassets\\images\\brands\\dropbox.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\brands\\github.png",
+      "PackagePath": "staticwebassets\\images\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\brands\\mail_chimp.png",
+      "PackagePath": "staticwebassets\\images\\brands\\mail_chimp.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\images\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\coming-soon.png",
+      "PackagePath": "staticwebassets\\images\\coming-soon.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\companies\\img-1.png",
+      "PackagePath": "staticwebassets\\images\\companies\\img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\companies\\img-2.png",
+      "PackagePath": "staticwebassets\\images\\companies\\img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\companies\\img-3.png",
+      "PackagePath": "staticwebassets\\images\\companies\\img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\companies\\img-4.png",
+      "PackagePath": "staticwebassets\\images\\companies\\img-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\companies\\img-5.png",
+      "PackagePath": "staticwebassets\\images\\companies\\img-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\companies\\img-6.png",
+      "PackagePath": "staticwebassets\\images\\companies\\img-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\error-img.png",
+      "PackagePath": "staticwebassets\\images\\error-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\flags\\germany.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\germany.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\flags\\italy.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\italy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\flags\\russia.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\russia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\flags\\spain.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\spain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\flags\\us.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\grinning-face.gif",
+      "PackagePath": "staticwebassets\\images\\grinning-face.gif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\login-img.png",
+      "PackagePath": "staticwebassets\\images\\login-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\logo-dark-sm.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\logo-light-sm.png",
+      "PackagePath": "staticwebassets\\images\\logo-light-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\images\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\logo-studytrick.png",
+      "PackagePath": "staticwebassets\\images\\logo-studytrick.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\maintenance.png",
+      "PackagePath": "staticwebassets\\images\\maintenance.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\pattern-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\pattern-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\post-1.jpg",
+      "PackagePath": "staticwebassets\\images\\post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\post-2.jpg",
+      "PackagePath": "staticwebassets\\images\\post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-1.png",
+      "PackagePath": "staticwebassets\\images\\product\\img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-2.png",
+      "PackagePath": "staticwebassets\\images\\product\\img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-3.png",
+      "PackagePath": "staticwebassets\\images\\product\\img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\product\\img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\small\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\small\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\small\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\small\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\small\\img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\small\\img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\small\\img-7.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-area.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-area.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-bar.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-bar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-boxplot.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-boxplot.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-bubble.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-bubble.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-candlestick.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-candlestick.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-column.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-column.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-heatmap.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-heatmap.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-line.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-line.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-pie.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-pie.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-polararea.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-polararea.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-radar.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-radar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-radialbar.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-radialbar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-scatter.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-scatter.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-timeline.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-timeline.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\apexcharts-treemap.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\apexcharts-treemap.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\calendar.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\calendar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\chartjs.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\chartjs.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\chartjs.js",
+      "PackagePath": "staticwebassets\\js\\pages\\chartjs.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\coming-soon.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\coming-soon.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\dashboard-crypto.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard-crypto.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\dashboard-saas.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard-saas.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\dashboard.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\echarts.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\echarts.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\ecommerce-choices.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ecommerce-choices.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\ecommerce-customers.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ecommerce-customers.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\ecommerce-orders.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ecommerce-orders.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\ecommerce-product-detail.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ecommerce-product-detail.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\ecommerce-shops.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ecommerce-shops.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\email-editor.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\email-editor.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\eva-icon.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\eva-icon.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\file-manager.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\file-manager.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\fontawesome.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\fontawesome.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\form-advanced.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\form-advanced.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\form-editor.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\form-editor.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\form-mask.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\form-mask.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\form-validation.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\form-validation.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\form-wizard.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\form-wizard.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\gmaps.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\gmaps.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\gridjs.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\gridjs.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\invoice-list.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\invoice-list.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\leaflet-map.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\leaflet-map.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\leaflet-us-states.js",
+      "PackagePath": "staticwebassets\\js\\pages\\leaflet-us-states.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\lightbox.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\lightbox.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\materialdesign.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\materialdesign.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\notification.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\notification.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\pass-addon.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\pass-addon.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\product-filter-range.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\product-filter-range.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\range-sliders.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\range-sliders.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\rating.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\rating.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\sweet-alerts.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\sweet-alerts.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\task-creat.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\task-creat.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\timeline.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\timeline.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\tui-charts.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\tui-charts.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\two-step-verification.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\two-step-verification.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\pages\\vector-maps.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\vector-maps.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\@ckeditor\\ckeditor5-build-classic\\build\\ckeditor.js",
+      "PackagePath": "staticwebassets\\libs\\@ckeditor\\ckeditor5-build-classic\\build\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\@simonwep\\pickr\\pickr.es5.min.js",
+      "PackagePath": "staticwebassets\\libs\\@simonwep\\pickr\\pickr.es5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\@simonwep\\pickr\\pickr.min.js",
+      "PackagePath": "staticwebassets\\libs\\@simonwep\\pickr\\pickr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\@simonwep\\pickr\\themes\\classic.min.css",
+      "PackagePath": "staticwebassets\\libs\\@simonwep\\pickr\\themes\\classic.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\@simonwep\\pickr\\themes\\monolith.min.css",
+      "PackagePath": "staticwebassets\\libs\\@simonwep\\pickr\\themes\\monolith.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\@simonwep\\pickr\\themes\\nano.min.css",
+      "PackagePath": "staticwebassets\\libs\\@simonwep\\pickr\\themes\\nano.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\alertifyjs\\build\\alertify.min.js",
+      "PackagePath": "staticwebassets\\libs\\alertifyjs\\build\\alertify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\alertifyjs\\build\\css\\alertify.min.css",
+      "PackagePath": "staticwebassets\\libs\\alertifyjs\\build\\css\\alertify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\alertifyjs\\build\\css\\themes\\default.min.css",
+      "PackagePath": "staticwebassets\\libs\\alertifyjs\\build\\css\\themes\\default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\libs\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\libs\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\libs\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\choices.js\\public\\assets\\scripts\\choices.min.js",
+      "PackagePath": "staticwebassets\\libs\\choices.js\\public\\assets\\scripts\\choices.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\choices.js\\public\\assets\\styles\\choices.min.css",
+      "PackagePath": "staticwebassets\\libs\\choices.js\\public\\assets\\styles\\choices.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\dropzone\\min\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\libs\\dropzone\\min\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\dropzone\\min\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\libs\\dropzone\\min\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\echarts\\echarts.min.js",
+      "PackagePath": "staticwebassets\\libs\\echarts\\echarts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\eva-icons\\eva.min.js",
+      "PackagePath": "staticwebassets\\libs\\eva-icons\\eva.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\flatpickr\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\libs\\flatpickr\\flatpickr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\flatpickr\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\libs\\flatpickr\\flatpickr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\libs\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\libs\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\libs\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\libs\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\gmaps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\libs\\gmaps\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\gridjs\\gridjs.umd.js",
+      "PackagePath": "staticwebassets\\libs\\gridjs\\gridjs.umd.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\gridjs\\theme\\mermaid.min.css",
+      "PackagePath": "staticwebassets\\libs\\gridjs\\theme\\mermaid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\imask\\imask.min.js",
+      "PackagePath": "staticwebassets\\libs\\imask\\imask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\jsvectormap\\css\\jsvectormap.min.css",
+      "PackagePath": "staticwebassets\\libs\\jsvectormap\\css\\jsvectormap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\jsvectormap\\js\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\libs\\jsvectormap\\js\\jsvectormap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\jsvectormap\\maps\\canada.js",
+      "PackagePath": "staticwebassets\\libs\\jsvectormap\\maps\\canada.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\jsvectormap\\maps\\us-merc-en.js",
+      "PackagePath": "staticwebassets\\libs\\jsvectormap\\maps\\us-merc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\jsvectormap\\maps\\world-merc.js",
+      "PackagePath": "staticwebassets\\libs\\jsvectormap\\maps\\world-merc.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\leaflet\\images\\layers-2x.png",
+      "PackagePath": "staticwebassets\\libs\\leaflet\\images\\layers-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\leaflet\\images\\layers.png",
+      "PackagePath": "staticwebassets\\libs\\leaflet\\images\\layers.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\leaflet\\images\\marker-icon.png",
+      "PackagePath": "staticwebassets\\libs\\leaflet\\images\\marker-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\leaflet\\leaflet.css",
+      "PackagePath": "staticwebassets\\libs\\leaflet\\leaflet.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\leaflet\\leaflet.js",
+      "PackagePath": "staticwebassets\\libs\\leaflet\\leaflet.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\masonry-layout\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\libs\\masonry-layout\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\metismenujs\\metismenujs.min.js",
+      "PackagePath": "staticwebassets\\libs\\metismenujs\\metismenujs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\moment\\min\\moment.min.js",
+      "PackagePath": "staticwebassets\\libs\\moment\\min\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\libs\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\libs\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\quill\\quill.bubble.css",
+      "PackagePath": "staticwebassets\\libs\\quill\\quill.bubble.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\quill\\quill.core.css",
+      "PackagePath": "staticwebassets\\libs\\quill\\quill.core.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\quill\\quill.min.js",
+      "PackagePath": "staticwebassets\\libs\\quill\\quill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\quill\\quill.snow.css",
+      "PackagePath": "staticwebassets\\libs\\quill\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\rater-js\\index.js",
+      "PackagePath": "staticwebassets\\libs\\rater-js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\simplebar\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\libs\\simplebar\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\libs\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\libs\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\libs\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\libs\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\tui-chart\\maps\\usa.js",
+      "PackagePath": "staticwebassets\\libs\\tui-chart\\maps\\usa.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\tui-chart\\tui-chart-all.min.js",
+      "PackagePath": "staticwebassets\\libs\\tui-chart\\tui-chart-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\tui-chart\\tui-chart.min.css",
+      "PackagePath": "staticwebassets\\libs\\tui-chart\\tui-chart.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\BCA\\EXTRA\\.Net(Mvc)\\StudyTrick\\StudyTrick\\wwwroot\\libs\\wnumb\\wNumb.min.js",
+      "PackagePath": "staticwebassets\\libs\\wnumb\\wNumb.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StudyTrick.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StudyTrick.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.StudyTrick.props",
+      "PackagePath": "build\\StudyTrick.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.StudyTrick.props",
+      "PackagePath": "buildMultiTargeting\\StudyTrick.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.StudyTrick.props",
+      "PackagePath": "buildTransitive\\StudyTrick.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

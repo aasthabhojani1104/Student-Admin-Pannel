@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Programs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model StudyTrick.Areas.MST_Program.Models.MST_ProgramModel
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
+                <ol class="breadcrumb breadcrumb-dark breadcrumb-transparent">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            <svg class="icon icon-xxs" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="/MST_Program/MST_Program/Index">Programs</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Add Program</li>
+                </ol>
+            </nav>
+            <div class="row justify-content-center">
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">@TempData["ProgramSaveMSG"] Program</h4>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" asp-area="MST_Program" asp-controller="MST_Program" asp-action="Save">
+                                @Html.HiddenFor(x=>x.ProgramID)
+                                <div class="mb-3">
+                                    <label for="courseName" class="form-label">Course Name</label>
+                                    <select id="courseName" class="form-select" asp-for="CourseID" asp-items="@(new SelectList(ViewBag.CourseList,"CourseID","CourseName"))">
+                                        <option value="">Select Course</option>
+                                    </select>
+                                    <span asp-validation-for="CourseID" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="programName" class="form-label">Program Name</label>
+                                    <input class="form-control" id="programName" placeholder="Enter Program Name" type="text" asp-for="ProgramName">
+                                    <span asp-validation-for="ProgramName" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="desc">Description</label>
+                                    <textarea class="form-control" id="desc" placeholder="Enter Description" type="text" asp-for="Description"></textarea>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col text-end">
+                                        <a href="/MST_Program/MST_Program/Index" class="btn btn-outline-secondary w-md"> <i class="mdi mdi-close me-1"></i> Cancel </a>
+                                        <button type="submit" class="btn btn-primary w-md"> <i class="mdi mdi-file-document-outline me-1"></i> Save </button>
+                                    </div> <!-- end col --> 
+                                </div>
+                            </form>
+                        </div>
+                        <!-- end card body -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+
+        </div> <!-- container-fluid -->
+    </div>
+  
+</div>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

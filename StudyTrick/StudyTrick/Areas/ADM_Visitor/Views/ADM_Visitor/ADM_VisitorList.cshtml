@@ -1,0 +1,187 @@
+﻿@{
+    ViewData["Title"] = "Visitor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using System.Data
+@model DataTable
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <!-- Page Header -->
+            <div class="page-header mb-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-transparent">
+                        <li class="breadcrumb-item">
+                            <a asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">Visitor Management</li>
+                        <li class="breadcrumb-item active" aria-current="page">Visitors</li>
+                    </ol>
+                </nav>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="mb-0">Visitors</h4>
+                    <a class="btn btn-primary" asp-area="ADM_Visitor" asp-controller="ADM_Visitor" asp-action="Add">
+                        <i class="fas fa-plus-circle me-2"></i>Add Visitor
+                    </a>
+                </div>
+            </div>
+
+            <!-- Visitor Table Card -->
+            <div class="card shadow-lg border-0">
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table id="visitorTable" class="table table-hover align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th class="ps-4">Visitor</th>
+                                    <th>Contact</th>
+                                    <th class="d-none d-lg-table-cell">Admission Year</th>
+                                    <th>Passing Year</th>
+                                    <th class="text-end pe-4">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (DataRow drVisitor in Model.Rows)
+                                {
+                                    <tr>
+                                        <td class="ps-4 fw-semibold">@drVisitor["VisitorName"]</td>
+                                        <td>
+                                            <div class="d-flex flex-column">
+                                                <span>@(drVisitor["Phone"]?.ToString() ?? "-")</span>
+                                                <small class="text-muted">@(drVisitor["Email"]?.ToString() ?? "")</small>
+                                            </div>
+                                        </td>
+                                        <td class="d-none d-lg-table-cell">
+                                            <span class="text-muted">
+                                                @drVisitor["AdmissionYear"]
+                                            </span>
+                                        </td>
+                                        <td>
+                                            @if (!string.IsNullOrEmpty(drVisitor["PassingYear"]?.ToString()))
+                                            {
+                                                <span class="badge bg-primary">
+                                                    @Convert.ToDateTime(drVisitor["PassingYear"]).ToString("yyyy")
+                                                </span>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted">-</span>
+                                            }
+                                        </td>
+                                        <td class="text-end pe-4">
+                                            <div class="d-flex gap-2 justify-content-end">
+                                                <a asp-area="ADM_Visitor" asp-controller="ADM_Visitor"
+                                                   asp-action="Add" asp-route-visitorid="@Convert.ToInt32(drVisitor["VisitorID"])"
+                                                   class="btn btn-sm btn-outline-secondary"
+                                                   data-bs-toggle="tooltip"
+                                                   title="Edit Visitor">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+
+                                               @*  <a onclick="visitorDetails(this);"
+                                                   data-id="@Convert.ToInt32(drVisitor["VisitorID"])"
+                                                   class="btn btn-sm btn-outline-info"
+                                                   data-bs-toggle="tooltip"
+                                                   title="View Details">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> *@
+
+                                                <form method="post"
+                                                      asp-area="ADM_Visitor"
+                                                      asp-controller="ADM_Visitor"
+                                                      asp-action="Delete"
+                                                      onsubmit="return confirm('Are you sure you want to delete this visitor?');">
+                                                    <input type="hidden" name="VisitorID"
+                                                           value="@Convert.ToInt32(drVisitor["VisitorID"])" />
+                                                    <button type="submit"
+                                                            class="btn btn-sm btn-outline-danger"
+                                                            data-bs-toggle="tooltip"
+                                                            title="Delete Visitor">
+                                                        <i class="fas fa-trash"></i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+   
+</div>
+
+<style>
+    .card {
+        border-radius: 0.75rem;
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .table thead th {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 0.05em;
+    }
+
+    .badge {
+        padding: 0.35em 0.65em;
+        font-size: 0.85em;
+        font-weight: 500;
+    }
+
+    .btn-outline-secondary {
+        border-color: #dee2e6;
+    }
+</style>
+
+ @section Scripts {
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/dt-1.13.6/datatables.min.css" />
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.13.6/datatables.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#visitorTable').DataTable({
+                ordering: true,
+                responsive: true,
+                columnDefs: [
+                    {
+                        orderable: false,
+                        targets: -1,
+                        className: 'no-wrap'
+                    }
+                ],
+                language: {
+                    search: "_INPUT_",
+                    searchPlaceholder: "Search visitors...",
+                    emptyTable: "No visitors found",
+                    info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                    infoEmpty: "Showing 0 to 0 of 0 entries",
+                    paginate: {
+                        first: '<i class="fas fa-angle-double-left"></i>',
+                        previous: '<i class="fas fa-angle-left"></i>',
+                        next: '<i class="fas fa-angle-right"></i>',
+                        last: '<i class="fas fa-angle-double-right"></i>'
+                    }
+                },
+                dom: '<"top"<"row align-items-center"<"col-md-6"l><"col-md-6"f>>>rt<"bottom"<"row align-items-center"<"col-md-6"i><"col-md-6"p>>><"clear">'
+            });
+
+            // Initialize Bootstrap tooltips
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+        });
+
+        // Keep existing visitorDetails function and modal code
+    </script>
+} 

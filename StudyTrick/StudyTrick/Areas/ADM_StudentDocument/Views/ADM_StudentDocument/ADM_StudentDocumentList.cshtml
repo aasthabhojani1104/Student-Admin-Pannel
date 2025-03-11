@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Student Document";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using System.Data
+@model DataTable
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
+                <ol class="breadcrumb breadcrumb-dark breadcrumb-transparent">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            <svg class="icon icon-xxs" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Student Document</li>
+                </ol>
+            </nav>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="position-relative">
+                                <div class="modal-button mt-2">
+                                    <div class="row align-items-start">
+                                        <div class="col-sm">
+                                            <div class="mt-3 mt-md-0 mb-3">
+                                                <a type="button" class="btn btn-success" asp-area="ADM_StudentDocument" asp-controller="ADM_StudentDocument" asp-action="Add">
+                                                    <i class="mdi mdi-plus me-1"></i> Add Student Document
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <table id="studentDocTable" class="table table-centered table-hover table-nowrap mb-0 rounded">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th>Student Name</th>
+                                            <th>Document</th>
+                                            <th>Document Path</th>
+                                            <th>Description</th>
+                                            <th>Creation Date</th>
+                                            <th>Modification Date</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (DataRow drStudentDocument in Model.Rows)
+                                        {
+                                            <tr>
+                                                <td>@drStudentDocument["StudentName"]</td>
+                                                <td>@drStudentDocument["DocumentName"]</td>
+                                                <td>@drStudentDocument["DocumentPath"]</td>
+                                                <td>@drStudentDocument["Description"]</td>
+                                                <td>@Convert.ToDateTime(drStudentDocument["CreationDate"]).ToString("dd/MM/yyyy")</td>
+                                                <td>@Convert.ToDateTime(drStudentDocument["ModificationDate"]).ToString("dd/MM/yyyy")</td>
+                                                <td>
+                                                    <form method="post">
+                                                        <input type="hidden" name="StudentDocumentID" value="@Convert.ToInt32(drStudentDocument["StudentDocumentID"])" />
+                                                        <div class="d-flex gap-2">
+                                                            <button type="submit" asp-area="ADM_StudentDocument" asp-controller="ADM_StudentDocument" asp-action="Add" asp-route-StudentDocumentid="@Convert.ToInt32(drStudentDocument["StudentDocumentID"])" class="btn btn-success bg-gradient btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Edit">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" class="eva eva-edit fill-white align-text-top"><g data-name="Layer 2"><g data-name="edit"><rect width="24" height="24" opacity="0"></rect><path d="M19.4 7.34L16.66 4.6A2 2 0 0 0 14 4.53l-9 9a2 2 0 0 0-.57 1.21L4 18.91a1 1 0 0 0 .29.8A1 1 0 0 0 5 20h.09l4.17-.38a2 2 0 0 0 1.21-.57l9-9a1.92 1.92 0 0 0-.07-2.71zM16 10.68L13.32 8l1.95-2L18 8.73z"></path></g></g></svg>
+                                                            </button>
+                                                            <button type="submit" onclick="return showAlert();" asp-area="ADM_StudentDocument" asp-controller="ADM_StudentDocument" asp-action="Delete" class="btn btn-danger bg-gradient btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Delete">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" class="eva eva-trash-2 fill-white align-text-top"><g data-name="Layer 2"><g data-name="trash-2"><rect width="24" height="24" opacity="0"></rect><path d="M21 6h-5V4.33A2.42 2.42 0 0 0 13.5 2h-3A2.42 2.42 0 0 0 8 4.33V6H3a1 1 0 0 0 0 2h1v11a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8h1a1 1 0 0 0 0-2zM10 16a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm0-11.67c0-.16.21-.33.5-.33h3c.29 0 .5.17.5.33V6h-4zM16 16a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0z"></path></g></g></svg>
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- end card body -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div> <!-- container-fluid -->
+    </div>
+    <!-- End Page-content -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <script>document.write(new Date().getFullYear())</script> &copy; Aastha Bhojani.
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+@section Scripts{
+    <script>
+        $("#studentDocTable").Grid({
+            pagination: { limit: 10 },
+            sort: !0,
+            search: !0,
+        });
+        @*var currentTab = 0; function showTab(e) { var t = document.getElementsByClassName("wizard-tab"); t[e].style.display = "block", document.getElementById("prevBtn").style.display = 0 == e ? "none" : "inline", e == t.length - 1 ? document.getElementById("nextBtn").innerHTML = "Add" : document.getElementById("nextBtn").innerHTML = "Next", fixStepIndicator(e) } function nextPrev(e) { var t = document.getElementsByClassName("wizard-tab"); t[currentTab].style.display = "none", (currentTab += e) >= t.length && (t[currentTab -= e].style.display = "block"), showTab(currentTab) } function fixStepIndicator(e) { for (var t = document.getElementsByClassName("list-item"), a = 0; a < t.length; a++)t[a].className = t[a].className.replace(" active", ""); t[e].className += " active" } showTab(currentTab);*@
+    </script>
+}

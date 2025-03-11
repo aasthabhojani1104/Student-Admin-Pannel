@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\ADM_Intake\Data\" />
+    <Folder Include="Areas\ADM_StudentDocument\Data\" />
+    <Folder Include="Areas\ADM_Student\Data\" />
+    <Folder Include="Areas\ADM_Visitor\Data\" />
+    <Folder Include="Areas\LOC_City\Data\" />
+    <Folder Include="Areas\LOC_State\Data\" />
+    <Folder Include="Areas\MST_AdmissionYear\Data\" />
+    <Folder Include="Areas\MST_CasteCategory\Data\" />
+    <Folder Include="Areas\MST_CourseWiseDocument\Data\" />
+    <Folder Include="Areas\MST_Course\Data\" />
+    <Folder Include="Areas\MST_Document\Data\" />
+    <Folder Include="Areas\MST_Program\Data\" />
+    <Folder Include="Areas\MST_Qualification\Data\" />
+    <Folder Include="Areas\MST_Quota\Data\" />
+    <Folder Include="Areas\MST_Staff\Data\" />
+    <Folder Include="Areas\MST_User\Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Data" Version="6.0.1304" />
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="4.13.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+</Project>

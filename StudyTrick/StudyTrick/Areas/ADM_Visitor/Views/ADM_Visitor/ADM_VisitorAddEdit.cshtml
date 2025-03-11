@@ -1,0 +1,147 @@
+﻿@{
+    ViewData["Title"] = "Visitor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model StudyTrick.Areas.ADM_Visitor.Models.ADM_VisitorModel
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
+                <ol class="breadcrumb breadcrumb-dark breadcrumb-transparent">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            <svg class="icon icon-xxs" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="/ADM_Visitor/ADM_Visitor/Index">Visitor</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Add Visitor</li>
+                </ol>
+            </nav>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">@TempData["VisitorSaveMSG"] Visitor</h4>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" asp-area="ADM_Visitor" asp-controller="ADM_Visitor" asp-action="Save">
+                                @Html.HiddenFor(x=>x.VisitorID)
+                                <div class="row">
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="visitorName" class="form-label">Visitor Name</label>
+                                            <input class="form-control" id="visitorName" placeholder="Enter Visitor Name" type="text" asp-for="VisitorName">
+                                            <span asp-validation-for="VisitorName" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="phone" class="form-label">Phone</label>
+                                            <input class="form-control" id="phone" placeholder="Enter Phone Number" type="number" asp-for="Phone">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input class="form-control" id="email" placeholder="Enter Email" type="email" asp-for="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="noOfPeople" class="form-label">No. Of People</label>
+                                            <input class="form-control" id="noOfPeople" placeholder="Enter No. of People" type="number" asp-for="NoOfPeople">
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="admissionYear" class="form-label">Admission Year</label>
+                                            <select id="admissionYear" class="form-select" asp-for="AdmissionYearID" asp-items="@(new SelectList(ViewBag.AdmissionYearList,"AdmissionYearID","AdmissionYear"))">
+                                                <option value="">Select Admission Year</option>
+                                            </select>
+                                            <span asp-validation-for="AdmissionYearID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="passYear" class="form-label">Passing Year</label>
+                                            <input type="text" class="form-control" id="passYear" asp-for="PassingYear" placeholder="DD/MM/YYYY">
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="interestCourse" class="form-label">Interested Courses</label>
+                                            <select id="interestCourse" class="form-control" asp-for="InterestedCoursesID" asp-items="@(new SelectList(ViewBag.CourseList,"CourseID","CourseName"))" multiple>
+                                                <option value="">Select Course</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="counStaffName" class="form-label">Counsellor Staff</label>
+                                            <select id="counStaffName" class="form-select" asp-for="CounsellorStaffID" asp-items="@(new SelectList(ViewBag.StaffList,"StaffID","StaffName"))">
+                                                <option value="">Select Counsellor Staff</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-md-6">
+                                        <div class="mb-3">
+                                            <label for="visitorStaffName" class="form-label">Visitor Staff</label>
+                                            <select id="visitorStaffName" class="form-select" asp-for="VisitorStaffID" asp-items="@(new SelectList(ViewBag.StaffList,"StaffID","StaffName"))">
+                                                <option value="">Select Visitor Staff</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="mb-3">
+                                            <label for="address" class="form-label">Address</label>
+                                            <textarea class="form-control" id="address" placeholder="Enter Address" type="text" asp-for="Address"></textarea>
+                                            <span asp-validation-for="Address" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="mb-3">
+                                            <label for="desc" class="form-label">Description</label>
+                                            <textarea class="form-control" id="desc" placeholder="Enter Description" type="text" asp-for="Description"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-end">
+                                            <a href="/ADM_Visitor/ADM_Visitor/Index" class="btn btn-outline-secondary w-md"> <i class="mdi mdi-close me-1"></i> Cancel </a>
+                                            <button type="submit" class="btn btn-primary w-md"> <i class="mdi mdi-file-document-outline me-1"></i>Save</button>
+                                        </div> <!-- end col -->
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- end card body -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+
+        </div> <!-- container-fluid -->
+    </div>
+    <!-- End Page-content -->
+  
+</div>
+
+@section Scripts{
+    @* <script>
+        new Choices("#interestCourse", {
+            removeItemButton: !0
+        }),
+            flatpickr("#passYear");
+    </script> *@
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

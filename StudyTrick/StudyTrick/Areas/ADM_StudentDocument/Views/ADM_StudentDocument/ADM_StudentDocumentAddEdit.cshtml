@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Student Document";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model StudyTrick.Areas.ADM_StudentDocument.Models.ADM_StudentDocumentModel
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
+                <ol class="breadcrumb breadcrumb-dark breadcrumb-transparent">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            <svg class="icon icon-xxs" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="/ADM_StudentDocument/ADM_StudentDocument/Index">Student Document</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Add Student Document</li>
+                </ol>
+            </nav>
+            <div class="row justify-content-center">
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">@TempData["StudentDocumentSaveMSG"] Student Document</h4>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" asp-area="ADM_StudentDocument" asp-controller="ADM_StudentDocument" asp-action="Save" enctype="multipart/form-data">
+                                @Html.HiddenFor(x=>x.StudentDocumentID)
+                                @Html.HiddenFor(x=>x.DocumentPath)
+                                <div class="mb-3">
+                                    <label for="StudentID" class="form-label">Student Name</label>
+                                    <select id="StudentID" class="form-select" asp-for="StudentID" asp-items="@(new SelectList(ViewBag.StudentList,"StudentID","StudentName"))">
+                                        <option value="">Select Student</option>
+                                    </select>
+                                    <span asp-validation-for="StudentID" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="DocumentID" class="form-label">Document Name</label>
+                                    <select id="DocumentID" class="form-select" asp-for="DocumentID" asp-items="@(new SelectList(ViewBag.DocumentList,"DocumentID","DocumentName"))">
+                                        <option value="">Select Document</option>
+                                    </select>
+                                    <span asp-validation-for="DocumentID" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="DocumentFile" class="form-label">Document File</label>
+                                    <input class="form-control" id="DocumentFile" type="file" asp-for="File">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="desc">Description</label>
+                                    <textarea class="form-control" id="desc" placeholder="Enter Description" type="text" asp-for="Description"></textarea>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col text-end">
+                                        <a href="/ADM_StudentDocument/ADM_StudentDocument/Index" class="btn btn-outline-secondary w-md"> <i class="mdi mdi-close me-1"></i> Cancel </a>
+                                        <button type="submit" class="btn btn-primary w-md"> <i class="mdi mdi-file-document-outline me-1"></i> Save </button>
+                                    </div> <!-- end col -->
+                                </div>
+                            </form>
+                        </div>
+                        <!-- end card body -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+
+        </div> <!-- container-fluid -->
+    </div>
+    <!-- End Page-content -->
+
+    
+</div>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

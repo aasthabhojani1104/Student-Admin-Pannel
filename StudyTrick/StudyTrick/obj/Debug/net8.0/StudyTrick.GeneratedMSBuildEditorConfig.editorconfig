@@ -1,0 +1,249 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StudyTrick
+build_property.RootNamespace = StudyTrick
+build_property.ProjectDir = C:\Users\Lenovo\Documents\BCA\EXTRA\.Net(Mvc)\StudyTrick\StudyTrick\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lenovo\Documents\BCA\EXTRA\.Net(Mvc)\StudyTrick\StudyTrick
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Intake/Views/ADM_Intake/ADM_IntakeAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX0ludGFrZVxWaWV3c1xBRE1fSW50YWtlXEFETV9JbnRha2VBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Intake/Views/ADM_Intake/ADM_IntakeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX0ludGFrZVxWaWV3c1xBRE1fSW50YWtlXEFETV9JbnRha2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Intake/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX0ludGFrZVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_StudentDocument/Views/ADM_StudentDocument/ADM_StudentDocumentAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1N0dWRlbnREb2N1bWVudFxWaWV3c1xBRE1fU3R1ZGVudERvY3VtZW50XEFETV9TdHVkZW50RG9jdW1lbnRBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_StudentDocument/Views/ADM_StudentDocument/ADM_StudentDocumentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1N0dWRlbnREb2N1bWVudFxWaWV3c1xBRE1fU3R1ZGVudERvY3VtZW50XEFETV9TdHVkZW50RG9jdW1lbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_StudentDocument/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1N0dWRlbnREb2N1bWVudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Student/Views/ADM_Student/ADM_StudentAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1N0dWRlbnRcVmlld3NcQURNX1N0dWRlbnRcQURNX1N0dWRlbnRBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Student/Views/ADM_Student/ADM_StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1N0dWRlbnRcVmlld3NcQURNX1N0dWRlbnRcQURNX1N0dWRlbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Student/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1N0dWRlbnRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Visitor/Views/ADM_Visitor/ADM_VisitorAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1Zpc2l0b3JcVmlld3NcQURNX1Zpc2l0b3JcQURNX1Zpc2l0b3JBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Visitor/Views/ADM_Visitor/ADM_VisitorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1Zpc2l0b3JcVmlld3NcQURNX1Zpc2l0b3JcQURNX1Zpc2l0b3JMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/ADM_Visitor/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQURNX1Zpc2l0b3JcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/LOC_City/Views/LOC_City/LOC_CityAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NpdHlcVmlld3NcTE9DX0NpdHlcTE9DX0NpdHlBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/LOC_City/Views/LOC_City/LOC_CityList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NpdHlcVmlld3NcTE9DX0NpdHlcTE9DX0NpdHlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/LOC_City/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NpdHlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/LOC_State/Views/LOC_State/LOC_StateAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1N0YXRlXFZpZXdzXExPQ19TdGF0ZVxMT0NfU3RhdGVBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/LOC_State/Views/LOC_State/LOC_StateList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1N0YXRlXFZpZXdzXExPQ19TdGF0ZVxMT0NfU3RhdGVMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/LOC_State/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1N0YXRlXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_AdmissionYear/Views/MST_AdmissionYear/MST_AdmissionYearAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0FkbWlzc2lvblllYXJcVmlld3NcTVNUX0FkbWlzc2lvblllYXJcTVNUX0FkbWlzc2lvblllYXJBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_AdmissionYear/Views/MST_AdmissionYear/MST_AdmissionYearList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0FkbWlzc2lvblllYXJcVmlld3NcTVNUX0FkbWlzc2lvblllYXJcTVNUX0FkbWlzc2lvblllYXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_AdmissionYear/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0FkbWlzc2lvblllYXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_CasteCategory/Views/MST_CasteCategory/MST_CasteCategoryAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0Nhc3RlQ2F0ZWdvcnlcVmlld3NcTVNUX0Nhc3RlQ2F0ZWdvcnlcTVNUX0Nhc3RlQ2F0ZWdvcnlBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_CasteCategory/Views/MST_CasteCategory/MST_CasteCategoryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0Nhc3RlQ2F0ZWdvcnlcVmlld3NcTVNUX0Nhc3RlQ2F0ZWdvcnlcTVNUX0Nhc3RlQ2F0ZWdvcnlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_CasteCategory/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0Nhc3RlQ2F0ZWdvcnlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_CourseWiseDocument/Views/MST_CourseWiseDocument/MST_CourseWiseDocumentAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0NvdXJzZVdpc2VEb2N1bWVudFxWaWV3c1xNU1RfQ291cnNlV2lzZURvY3VtZW50XE1TVF9Db3Vyc2VXaXNlRG9jdW1lbnRBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_CourseWiseDocument/Views/MST_CourseWiseDocument/MST_CourseWiseDocumentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0NvdXJzZVdpc2VEb2N1bWVudFxWaWV3c1xNU1RfQ291cnNlV2lzZURvY3VtZW50XE1TVF9Db3Vyc2VXaXNlRG9jdW1lbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_CourseWiseDocument/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0NvdXJzZVdpc2VEb2N1bWVudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Course/Views/MST_Course/MST_CourseAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0NvdXJzZVxWaWV3c1xNU1RfQ291cnNlXE1TVF9Db3Vyc2VBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Course/Views/MST_Course/MST_CourseList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0NvdXJzZVxWaWV3c1xNU1RfQ291cnNlXE1TVF9Db3Vyc2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Course/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0NvdXJzZVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Document/Views/MST_Document/MST_DocumentAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0RvY3VtZW50XFZpZXdzXE1TVF9Eb2N1bWVudFxNU1RfRG9jdW1lbnRBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Document/Views/MST_Document/MST_DocumentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0RvY3VtZW50XFZpZXdzXE1TVF9Eb2N1bWVudFxNU1RfRG9jdW1lbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Document/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0RvY3VtZW50XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Program/Views/MST_Program/MST_ProgramAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1Byb2dyYW1cVmlld3NcTVNUX1Byb2dyYW1cTVNUX1Byb2dyYW1BZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Program/Views/MST_Program/MST_ProgramList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1Byb2dyYW1cVmlld3NcTVNUX1Byb2dyYW1cTVNUX1Byb2dyYW1MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Program/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1Byb2dyYW1cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Qualification/Views/MST_Qualification/MST_QualificationAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1F1YWxpZmljYXRpb25cVmlld3NcTVNUX1F1YWxpZmljYXRpb25cTVNUX1F1YWxpZmljYXRpb25BZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Qualification/Views/MST_Qualification/MST_QualificationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1F1YWxpZmljYXRpb25cVmlld3NcTVNUX1F1YWxpZmljYXRpb25cTVNUX1F1YWxpZmljYXRpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Qualification/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1F1YWxpZmljYXRpb25cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Quota/Views/MST_Quota/MST_QuotaAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1F1b3RhXFZpZXdzXE1TVF9RdW90YVxNU1RfUXVvdGFBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Quota/Views/MST_Quota/MST_QuotaList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1F1b3RhXFZpZXdzXE1TVF9RdW90YVxNU1RfUXVvdGFMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Quota/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1F1b3RhXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Staff/Views/MST_Staff/MST_StaffAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1N0YWZmXFZpZXdzXE1TVF9TdGFmZlxNU1RfU3RhZmZBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Staff/Views/MST_Staff/MST_StaffList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1N0YWZmXFZpZXdzXE1TVF9TdGFmZlxNU1RfU3RhZmZMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_Staff/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1N0YWZmXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_User/Views/MST_User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1VzZXJcVmlld3NcTVNUX1VzZXJcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Areas/MST_User/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1VzZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Views/Shared/_Layout_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Documents/BCA/EXTRA/.Net(Mvc)/StudyTrick/StudyTrick/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9344q3xd9k

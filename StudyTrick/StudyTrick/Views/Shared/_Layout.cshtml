@@ -1,0 +1,339 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] | Study Trick</title>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/gridjs-jquery/dist/gridjs.development.js"></script>
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/images/favicon.ico">
+    <!-- Plugins css -->
+    @*<link href="~/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />*@
+    <!-- gridjs css -->
+    <link rel="stylesheet" href="~/libs/gridjs/theme/mermaid.min.css">
+    <!-- choices css -->
+    <link href="~/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" />
+    <!-- flatpickr css -->
+    <link href="~/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Css -->
+    <link href="~/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        @*    <script src="~/js/site.js"></script>*@
+</head>
+<body data-sidebar="light" data-topbar="light" data-layout-mode="light">
+    <div id="layout-wrapper">
+        <!-- Light Theme Header -->
+        <header id="page-topbar" class="isvertical-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    @* <div class="navbar-brand-box">
+                        <a asp-controller="Home" asp-action="Index" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="~/images/logo-dark-sm.png" alt="" height="92">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="~/images/logo-dark-sm.png" alt="" height="92">
+                            </span>
+                        </a>
+
+                        <a asp-controller="Home" asp-action="Index" class="logo logo-light">
+                            <span class="logo-lg">
+                                <img src="~/images/logo-light.png" alt="" height="22">
+                            </span>
+                            <span class="logo-sm">
+                                <img src="~/images/logo-studytrick.png" alt="" height="30">
+                            </span>
+                        </a>
+                    </div> *@
+
+                    <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn topnav-hamburger">
+                        <div class="hamburger-icon open">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+
+                    <div class="d-none d-sm-block ms-3 align-self-center">
+                        <h4 class="page-title">@ViewData["Title"]</h4>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <div class="dropdown">
+                       @*  <button type="button" class="btn header-item"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-sm" data-eva="search-outline"></i>
+                        </button> *@
+                        @* <div class="dropdown-menu dropdown-menu-end dropdown-menu-md p-0">
+                            <form class="p-2">
+                                <div class="search-box">
+                                    <div class="position-relative">
+                                        <input type="text" class="form-control bg-light border-0" placeholder="Search...">
+                                        <i class="search-icon" data-eva="search-outline" data-eva-height="26" data-eva-width="26"></i>
+                                    </div>
+                                </div>
+                            </form>
+                        </div> *@
+                    </div>
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item user text-start d-flex align-items-center" id="page-header-user-dropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="rounded-circle header-profile-user" src="~/images/grinning-face.gif"
+                                 alt="Header Avatar">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end pt-0">
+                            <div class="p-3 border-bottom">
+                                <h6 class="mb-0">@HttpContextAccessor.HttpContext.Session.GetString("Name")</h6>
+                                <p class="mb-0 font-size-11 text-muted">@HttpContextAccessor.HttpContext.Session.GetString("UserName")</p>
+                            </div>
+                            <a class="dropdown-item" asp-area="MST_User" asp-controller="MST_User" asp-action="Logout">
+                                <i class="mdi mdi-logout text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Logout</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Light Theme Sidebar -->
+        <div class="vertical-menu bg-white">
+            <div class="navbar-brand-box">
+                <a asp-controller="Home" asp-action="Index" class="logo logo-dark">
+                    <span class="logo-sm">
+                        <img src="~/images/logo-dark-sm.png" alt="" height="92">
+                    </span>
+                    <span class="logo-lg">
+                        <img src="~/images/logo-dark-sm.png" alt="" height="92">
+                    </span>
+                </a>
+
+                @* <a asp-controller="Home" asp-action="Index" class="logo logo-light">
+                    <span class="logo-lg">
+                        <img src="~/images/logo-studytrick.png" alt="" height="90">
+                        <span class="fs-4 text-white fw-bolder" style="font-family:'Open Sans';">Study</span><span class="fs-4 text-white" style="font-family:'Open Sans';"> Trick</span>
+                    </span>
+                    <span class="logo-sm">
+                        <img src="~/images/logo-studytrick.png" alt="" height="90">
+                    </span>
+                </a> *@
+            </div>
+
+
+            <!-- Simplified Menu Structure -->
+            <div class="sidebar-menu-scroll">
+                <div id="sidebar-menu">
+                    <ul class="metismenu list-unstyled">
+                        <li class="menu-title text-muted">MAIN NAVIGATION</li>
+                        <li>
+                            <a asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+                        <!-- Admissions Section -->
+                        <li class="menu-title text-muted">ADMISSIONS</li>
+                        <li>
+                            <a asp-area="ADM_Intake" asp-controller="ADM_Intake" asp-action="Index">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Intakes</span>
+                            </a>
+                        </li>
+                         <li>
+                            <a asp-area="ADM_Visitor" asp-controller="ADM_Visitor" asp-action="Index">
+                                <i class="fas fa-user-clock"></i>
+                                <span>Visitor</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="ADM_Student" asp-controller="ADM_Student" asp-action="Index">
+                                <i class="fas fa-users"></i>
+                                <span>Students</span>
+                            </a>
+                        </li>
+                       
+                       
+                        <li>
+                            <a asp-area="MST_AdmissionYear" asp-controller="MST_AdmissionYear" asp-action="Index">
+                                <i class="fas fa-calendar-check"></i>
+                                <span>Admission Year</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="MST_CasteCategory" asp-controller="MST_CasteCategory" asp-action="Index">
+                                <i class="fas fa-layer-group"></i>
+                                <span>Caste Category</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="MST_Qualification" asp-controller="MST_Qualification" asp-action="Index">
+                                <i class="fas fa-certificate"></i>
+                                <span>Qualification</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="MST_Quota" asp-controller="MST_Quota" asp-action="Index">
+                                <i class="fas fa-chart-pie"></i>
+                                <span>Quota</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="MST_Staff" asp-controller="MST_Staff" asp-action="Index">
+                                <i class="fas fa-users-cog"></i>
+                                <span>Staff</span>
+                            </a>
+                        </li>
+
+                        <!-- Master Data Section -->
+                        <li class="menu-title text-muted">MASTER DATA</li>
+                        <li>
+                            <a href="#masterData" data-bs-toggle="collapse">
+                                <i class="fas fa-database"></i>
+                                <span>Data Management</span>
+                                <i class="fas fa-angle-down float-end"></i>
+                            </a>
+                            <ul class="collapse" id="masterData">
+                                <li>
+                                    <a asp-area="MST_Course" asp-controller="MST_Course" asp-action="Index">
+                                        <i class="fas fa-book-open"></i> Courses
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-area="LOC_State" asp-controller="LOC_State" asp-action="Index">
+                                        <i class="fas fa-map-marked-alt"></i> States
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-area="LOC_City" asp-controller="LOC_City" asp-action="Index" class="d-flex align-items-center">
+                                        <i class="fas fa-city me-2"></i>
+                                        <span>Cities</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <!-- System Section -->
+                        <li>
+                                <a asp-area="MST_User" asp-controller="MST_User" asp-action="Index" class="d-flex align-items-center">
+                                    <i class="fas fa-sign-out-alt me-2"></i>
+                                    <span>Logout</span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content bg-light" style="display: flex; flex-direction: column; min-height: 100vh;">
+            <div class="page-content p-4" style="flex: 1; overflow-y: auto; height: calc(100vh - 120px);">
+                @RenderBody()
+            </div>
+
+            <!-- Light Footer -->
+            <footer class="footer bg-white border-top">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © StudyTrick.
+                        </div>
+                        <div class="col-sm-6 text-end">
+                            <div class="text-sm-end d-none d-sm-block">
+                                v1.0.0
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Right Sidebar (Simplified) -->
+    <div class="right-bar bg-white border-start" style="height: 100vh; overflow-y: auto;">
+        <div class="p-3">
+            <h5 class="mb-3">Quick Actions</h5>
+            <ul class="list-unstyled">
+                <li><a href="#" class="text-dark"><i class="fas fa-plus me-2"></i>New Student</a></li>
+                <li><a href="#" class="text-dark"><i class="fas fa-file-import me-2"></i>Import Data</a></li>
+                <li><a href="#" class="text-dark"><i class="fas fa-chart-line me-2"></i>Reports</a></li>
+            </ul>
+        </div>
+    </div>
+        <!-- Add this CSS -->
+    <style>
+        .main-content {
+            margin-left: 120px; /* Adjust based on sidebar width */
+            transition: margin-left 0.3s;
+            width: calc(100% - 120px);
+        }
+
+        .page-content {
+            padding-bottom: 60px; /* Footer height */
+        }
+
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .vertical-menu {
+            position: fixed;
+            width: 260px;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        @@media (max-width: 992px) {
+            .main-content {
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+    </style>
+
+    <!-- Scripts -->
+    <!-- jQuery (must be first) -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- Flatpickr (Ensure only one version is included) -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <!-- Bootstrap Bundle (Ensure Bootstrap JavaScript is after jQuery) -->
+    <script src="~/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Eva Icons (Load before using in app.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/eva-icons@1.1.3/eva.min.js"></script>
+
+    <!-- Custom Script (App.js) - Must be LAST -->
+    <script src="~/js/app.js"></script>
+    <script src="~/js/site.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let element = document.getElementById("layout-wrapper");
+            if (element) {
+                element.style.display = "block";
+            }
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
